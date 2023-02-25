@@ -82,7 +82,7 @@ img
 
 .header-nav
 {
-    width:70%;
+    width:76%;
     margin-top: 33px;
     display:flex;
     justify-content: space-between;
@@ -91,17 +91,18 @@ img
 
 .nav-item
 {   
-    font-family: "lavigne-display", sans-serif;
-    font-weight: 300;
+    /*font-family: "lavigne-display", sans-serif;*/
+    font-family: "martel";
+    font-weight: 200;
     color: #274874;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 0.9rem;
     letter-spacing: 1px;
 }
 
 .social
 {
-    margin-top:-0.7vw;
+    margin-top:-0.5vw;
     width:30px;
     height:30px;
     color: #285289;
