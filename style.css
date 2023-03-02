@@ -102,9 +102,10 @@ img
 .nav-item
 {   
     /*font-family: "lavigne-display", sans-serif;*/
-    font-family: "old standard";
+    font-family: "old standard", serif;
     font-weight: 200;
-    color: #274874;
+    /*color: #274874;*/
+    color: black;
     text-transform: uppercase;
     font-size: 0.95rem;
     letter-spacing: 1px;
