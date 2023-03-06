@@ -92,8 +92,8 @@ img
 
 .header-nav
 {
-    width:76%;
-    margin-top: 33px;
+    width:70%;
+    margin: 33px auto 0 auto;
     display:flex;
     justify-content: space-between;
     cursor: pointer;
@@ -109,14 +109,6 @@ img
     text-transform: uppercase;
     font-size: 0.95rem;
     letter-spacing: 1px;
-}
-
-.social
-{
-    margin-top:-0.5vw;
-    width:30px;
-    height:30px;
-    color: #285289;
 }
 
 /*End of Header*/
