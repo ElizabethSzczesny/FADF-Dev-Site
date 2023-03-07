@@ -127,7 +127,7 @@ img
 .opening-video
 {
     width:100vw;
-    height:66vh;
+    height:75vh;
 }
 
 .background-video
@@ -136,11 +136,12 @@ img
     height:100%;
     object-fit: cover;
     object-position:50% 20%;
+    position: relative;
 }
 
 /*End of Video*/
 
-.white-line
+/*.white-line
 {
     height:6px;
     background-color#ffffff
@@ -154,12 +155,25 @@ img
     text-align:center;
     vertical-align:middle;
     line-height:120px;
-}
+}*/
 
-.landing-article
+.landing-headline
 {
     font-family:"lavigne-display", sans-serif;
-    font-size:2rem;
+    font-size:2.5rem;
     font-weight:300;
     letter-spacing:1.4px;
+    width: 200px;
+    position: absolute;
+    left:67%;
+    bottom:20%;
+    z-index:20;
+    color:white;
 }
+
+.longer
+{
+    display:block;
+    width:600px;
+}
+
