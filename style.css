@@ -13,7 +13,7 @@
 html
 {
     font-size: 100%;
-    font-family: 'lavigne-text', serif;
+    font-family: 'lavigne-text', sans-serif;
     font-style: normal;
     font-weight: lighter;
 }
@@ -102,8 +102,8 @@ img
 .nav-item
 {   
     /*font-family: "lavigne-display", sans-serif;*/
-    font-family: "old standard", serif;
-    font-weight: 200;
+    font-family:serif;
+    font-weight:200;
     /*color: #274874;*/
     color: black;
     text-transform: uppercase;
@@ -168,7 +168,7 @@ img
 {
     width:60vw;
     margin:auto;
-    height: 60vw;
+    height: 40vw;
     position:absolute;
     left:50%;
     transform:translateX(-50%);
@@ -178,27 +178,28 @@ img
 
 .landing-headline
 {
-    font-family:"lavigne-display", sans-serif;
+    font-family:serif;
     font-size:2rem;
-    font-weight:350;
+    font-weight:100;
     letter-spacing:1.4px;
+    line-height: 45px;
     z-index:40;
-    width:200px;
+    width:240px;
     position: absolute;
-    top:8%;
-    left:12%;
+    top:12%;
+    left:11%;
 }
 
 .landing-para
 {
-    font-family:"lavigne-display", sans-serif;
+    font-family:"lavigne-display",serif;
     font-size:1rem;
     font-weight:300;
     z-index:40;
     width:350px;
     line-height:40px;
     position: absolute;
-    top:8%;
+    top:12%;
     left:52%;
 }
 
