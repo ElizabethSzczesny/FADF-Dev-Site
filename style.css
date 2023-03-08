@@ -157,19 +157,49 @@ img
     line-height:120px;
 }*/
 
+/*Landing Page Text*/
+
+.triangle-overlap-graphic
+{
+    transform:rotate(180deg);
+}
+
+.header-intro-wrapper
+{
+    width:60vw;
+    margin:auto;
+    height: 60vw;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    top:76%;
+    background-color: #ffffff;
+}
+
 .landing-headline
 {
     font-family:"lavigne-display", sans-serif;
-    font-size:2.5rem;
-    font-weight:300;
+    font-size:2rem;
+    font-weight:350;
     letter-spacing:1.4px;
+    z-index:40;
+    width:200px;
     position: absolute;
-    left:50%;
-    transform:translateX(-50%);
-    bottom:20%;
-    z-index:20;
-    color:white;
+    top:8%;
+    left:12%;
 }
 
+.landing-para
+{
+    font-family:"lavigne-display", sans-serif;
+    font-size:1rem;
+    font-weight:300;
+    z-index:40;
+    width:350px;
+    line-height:40px;
+    position: absolute;
+    top:8%;
+    left:52%;
+}
 
 
