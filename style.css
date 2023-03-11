@@ -71,6 +71,11 @@ img
     letter-spacing: 3px;
 }
 
+.contain
+{
+    object-fit: contain;
+}
+
 /*End of Common Styles*/
 
 /*Header*/
@@ -195,9 +200,27 @@ img
     padding-top: 185px;
 }
 
-.black-multi-triangle-graphic
+/*.black-multi-triangle-graphic
 {
     width:58vw;
     display:block;
     margin:26vw auto 185px auto;
+}*/
+
+.black-triangle-wrappers
+{
+    width:52vw;
+    margin:28vw auto 200px auto;
+    display:flex;
+    flex-direction: space-between;
 }
+
+.b-t-h
+{
+    font-family:"lavigne-display",serif;
+    font-size:1.1rem;
+    font-weight:300;
+    margin-top: 25px;
+    text-align: center;
+}
+
